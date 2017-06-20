@@ -1,0 +1,178 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{	margin:0;	padding:0; border:0; outline:0; }
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{ display:block; clear:both; }
+html, body { height: 100%; margin: 0px; padding: 0px; overflow: hidden; -webkit-touch-callout: none;-webkit-user-select: none;}
+html { line-height:1.6; font-family:Microsoft YaHei,Helvetica Neue,Helvetica,Roboto,Heiti SC,STHeiTi,Arial,sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+body{ font-size:14px; line-height: 1.6; font-family:Microsoft YaHei,Helvetica Neue,Helvetica,Roboto,Heiti SC,STHeiTi,Arial,sans-serif; overflow-x:hidden;min-width:320px;color:#333; background: #f6f6f6; }
+a{background:transparent;text-decoration:none;-webkit-tap-highlight-color:transparent;color:#555;}
+a:active{ outline:0; color: #333; }
+i,b,em,strong {font-weight:400;font-style:normal;}
+
+audio,canvas,progress,video{display:inline-block;vertical-align:baseline;}
+audio:not([controls]){display:none;height:0;}
+svg:not(:root){overflow:hidden;}
+hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #eee; height: 0; -webkit-box-sizing: content-box; -moz-box-sizing: content-box;         box-sizing: content-box; }
+pre{overflow:auto;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+code,kbd,pre,samp{font-family:monospace;font-size:1rem}
+mark { color: #333; background: #ff0; }
+dfn { font-style: italic; }
+table{border-collapse:collapse;border-spacing:0;}
+td,th{padding:0;}
+ul,ol{list-style:none outside none;}
+h1,h2,h3,h4,h5,h6,strong { font-size: 100%; font-style: normal; line-height: 1.5; font-weight: 400; }
+img{vertical-align:middle;border:0;-ms-interpolation-mode:bicubic;}
+p { font-size: inherit; margin: 0; color: inherit; }
+
+button,input,optgroup,select,textarea { margin: 0; font: inherit; color: inherit; background: none; border:none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+button { overflow: visible; border: none; }
+button,select { text-transform: none; }
+button,html input[type="button"],input[type="reset"],input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+button[disabled],html input[disabled] { cursor: default; }
+button::-moz-focus-inner,input::-moz-focus-inner { padding: 0; border: 0; }
+input { line-height: normal; outline: none; }
+input:active {  }
+input[type="checkbox"],input[type="radio"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button { height: auto; }
+input[type="search"] { -webkit-box-sizing: content-box; -moz-box-sizing: content-box;        box-sizing: content-box; -webkit-appearance: textfield; }
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+textarea{overflow:auto;resize:vertical;  outline: none;}
+input::-moz-placeholder,textarea::-moz-placeholder{color:#ccc;}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ccc;}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#ccc;}
+img,input,select{ vertical-align:middle; outline: none; border: none; background: none; }
+
+input[type="button"],input[type="text"],input[type="tel"],input[type="date"],input[type="password"], input[type="submit"], input[type="reset"] {-webkit-appearance: none; -webkit-box-shadow:none; background: none; border: none; margin: 0; padding: 0; }
+
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea { line-height: inherit; width: 100%; height: inherit; margin: 0; padding: 0; -webkit-user-select: text; border: none; border-radius: 0; outline: 0; background-color: none; -webkit-appearance: none; -webkit-box-shadow:none; } 
+
+abbr[title] { border-bottom: 1px dotted; }
+b,strong { font-weight: bold; }
+small { font-size: 80%; }
+sub,sup { position: relative; font-size: 75%; line-height: 0; vertical-align: baseline; }
+sup { top: -.5em; }
+sub { bottom: -.25em; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 1em 40px; }
+
+.hide{display:none!important;}
+.show{display:block!important;}
+
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-tap-highlight-color:rgba(255,255,255,0); }
+*:before,*:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.cl {  *zoom: 1; }
+.cl:after { content:'';display:block;height:0;clear:both; }
+.fl { float:left;}
+.fr { float:right;}
+
+.flex_card { display: -webkit-box;  display: -webkit-flex;  display: -ms-flexbox;  display: flex;}
+.flex_box { -webkit-box-flex: 1;  -webkit-flex: 1;  -ms-flex: 1;  flex: 1;}
+
+.text_one { overflow:hidden; text-overflow:ellipsis; -webkit-text-overflow:ellipsis; white-space:nowrap;}
+.text_two { word-break:break-all; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
+.arrow12 { display: inline-block; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); width:12px; height:12px; border-width: 0 2px 2px 0; border-color: #cbcbcb; border-style: solid; }
+.arrow10 { display: inline-block; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); width:10px; height:10px; border-width: 0 2px 2px 0; border-color: #cbcbcb; border-style: solid; }
+
+/*公共样式*/
+.wrapper { position: absolute; top: 0; right: 0; left: 0; bottom: 0; width: 100%; display: block; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+.scan_scroll{ position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; overflow: auto; z-index: 2;}
+.slideDown { position: absolute; left: 0; right: 0; top: 0; height: 50px; line-height: 50px; font-size: 12px; text-align: center; width: 100%; color: #666; z-index: 1; }
+
+@font-face {font-family: 'iconfont';
+    src: url('../font/iconfont.eot'); /* IE9*/
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  line-height: 1;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bangzhu1:before { content: "\e63a"; }
+.icon-gou:before { content: "\e636"; }
+.icon-jianyi:before { content: "\e63b"; }
+.icon-fanhui:before { content: "\e600"; }
+.icon-QQ:before { content: "\e601"; }
+.icon-fenxiang1:before { content: "\e63c"; }
+.icon-shouye:before { content: "\e629"; }
+.icon-tianjia:before { content: "\e62b"; }
+.icon-huitumoban:before { content: "\e602"; }
+.icon-iconfontcha:before { content: "\e603"; }
+.icon-unie61d:before { content: "\e604"; }
+.icon-pengyouquan:before { content: "\e605"; }
+.icon-fuwuleimu:before { content: "\e606"; }
+.icon-mima:before { content: "\e607"; }
+.icon-iconfontscan:before { content: "\e62c"; }
+.icon-wode:before { content: "\e608"; }
+.icon-mima1:before { content: "\e62d"; }
+.icon-xianjinzhifu:before { content: "\e609"; }
+.icon-qq01:before { content: "\e60a"; }
+.icon-bianji:before { content: "\e60b"; }
+.icon-shibai:before { content: "\e60c"; }
+.icon-shenqingshouhou:before { content: "\e60d"; }
+.icon-shouji:before { content: "\e60e"; }
+.icon-monitor:before { content: "\e644"; }
+.icon-shangchuanmoban:before { content: "\e60f"; }
+.icon-jinxingzhong:before { content: "\e621"; }
+.icon-bangzhu:before { content: "\e610"; }
+.icon-iconfontzhifubao:before { content: "\e611"; }
+.icon-chenggong:before { content: "\e612"; }
+.icon-zhifubao:before { content: "\e613"; }
+.icon-fenxiang:before { content: "\e614"; }
+.icon-aixin-copy:before { content: "\e627"; }
+.icon-dingdan:before { content: "\e615"; }
+.icon-tubiao66:before { content: "\e66f"; }
+.icon-erweima:before { content: "\e631"; }
+.icon-iconfenlei:before { content: "\e616"; }
+.icon-more:before { content: "\e617"; }
+.icon-26:before { content: "\e618"; }
+.icon-tequan:before { content: "\e619"; }
+.icon-zonglan:before { content: "\e638"; }
+.icon-weibiaoti27:before { content: "\e643"; }
+.icon-iconduizhangdan:before { content: "\e632"; }
+.icon-iconfontqiandai:before { content: "\e645"; }
+.icon-icon1460188493695:before { content: "\e61a"; }
+.icon-yuangongchaxun:before { content: "\e7d4"; }
+.icon-weibo01:before { content: "\e61b"; }
+.icon-erweima1:before { content: "\e628"; }
+.icon-yinxingqia:before { content: "\e62e"; }
+.icon-pinglun:before { content: "\e61c"; }
+.icon-cf-c14:before { content: "\e61e"; }
+.icon-guanyuwomen:before { content: "\e633"; }
+.icon-weixin:before { content: "\e61f"; }
+.icon-shangpin:before { content: "\e620"; }
+.icon-huodong:before { content: "\e62a"; }
+.icon-icon:before { content: "\e681"; }
+.icon-kefu1:before { content: "\e640"; }
+.icon-guanxiaobaotubiao18:before { content: "\e635"; }
+.icon-kehu:before { content: "\e622"; }
+.icon-invite:before { content: "\e63d"; }
+.icon-tixian:before { content: "\e634"; }
+.icon-yidaili:before { content: "\e639"; }
+.icon-touxiang:before { content: "\e623"; }
+.icon-qingjiashenqing:before { content: "\e624"; }
+.icon-weixinzhifu:before { content: "\e61d"; }
+.icon-yinlian:before { content: "\e625"; }
+.icon-zhangdan:before { content: "\e626"; }
+.icon-daili:before { content: "\e637"; }
+.icon-mima11:before { content: "\e63e"; }
+.icon-miaosha:before { content: "\e642"; }
+.icon-kefu:before { content: "\e66a"; }
+.icon-icon168:before { content: "\e6a6"; }
+.icon-shangdian_tianchong:before { content: "\e63f"; }
+.icon-jiaoyizhuanqu:before { content: "\e62f"; }
+.icon-zl_duizhang:before { content: "\e630"; }
+.icon-mima2:before { content: "\e641"; }
+.icon-hezuoshang:before { content: "\e67f"; }
+.icon-kg:before { content: "\e646"; }
+.icon-shuaxin:before { content: "\e648"; }
